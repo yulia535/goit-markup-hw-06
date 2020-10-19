@@ -861,6 +861,9 @@ footer {
 .title-policy>a {
     color: var(--accent-color);
 }
+.title-policy>a:visited {
+    color: var(--accent-color);
+}
 
 .title-policy::before {
     content: "";
