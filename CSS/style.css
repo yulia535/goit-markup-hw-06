@@ -586,7 +586,7 @@ footer {
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-image: url(/images/modal/icon-send.svg);
+    background-image: url(../images/modal/icon-send.svg);
     background-position: center;
     background-repeat: no-repeat;
     margin-left: 10px;
@@ -858,6 +858,9 @@ footer {
     letter-spacing: 0.03em;
     color: #757575;
 }
+.title-policy>a {
+    color: var(--accent-color);
+}
 
 .title-policy::before {
     content: "";
@@ -865,13 +868,13 @@ footer {
     height: 15px;
     width: 16px;
     margin-right: 7px;
-    background-image: url(/images/modal/check.svg);
+    background-image: url(../images/modal/check.svg);
 
 }
 
 .modal-form-policy:checked + .title-policy::before {
     background-color:var(--accent-color);
-    background-image: url(/images/modal/tick.svg);
+    background-image: url(../images/modal/tick.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
